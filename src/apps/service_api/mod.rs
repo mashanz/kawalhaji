@@ -1,4 +1,4 @@
-#[actix_web::get("/")]
+#[actix_web::get("/hello")]
 pub async fn hello() -> impl actix_web::Responder {
     actix_web::HttpResponse::Ok().body("Hello world!")
 }
